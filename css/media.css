@@ -1,0 +1,13 @@
+@media only screen and (max-width:768px)
+{ .logo{
+	text-align:center; 
+  }
+  #demo  .carousel-item img{
+	height:400px;
+	width:100%;
+   }
+   #demo  .carousel-item .carousel-caption h1{
+	font-size:30px;
+    }
+	
+} 

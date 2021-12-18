@@ -1,0 +1,291 @@
+.header-wrapper{
+	 width:100%;
+	 float:left;
+}
+.logo{
+	padding-top:10px;
+}
+.menu-wrapper .menu  .nav-item
+{ margin-right:20px;
+}
+.menu-wrapper .menu .nav-link
+{ color:black;
+  text-transform:uppercase;
+  font-size:14px;
+}
+.menu-wrapper .menu .nav-link:hover 
+{ color:red;
+}
+.menu-wrapper .menu .active .nav-link
+{ color:red;
+}
+.menu-wrapper .menuicon i{
+	color:black !important;
+}
+/* slider start */
+.slider-wrapper{
+	width:100%;
+	float:left; 
+	padding :40px 30px;
+}
+#demo  .carousel-item img{
+	height:600px;
+	width:100%;
+}
+#demo  .carousel-item{
+	position:relative;
+}
+#demo  .carousel-item .carousel-caption{
+	width:100%;
+	lefT:0px;
+	top:0px;
+	padding-top:200px;
+}
+#demo  .carousel-item .carousel-caption h1{
+	font-size:60px;
+}
+/* slider end */
+/* services start */
+.services-wrapper{
+	width:100%;
+	float:left;
+	padding:60px 0px;
+}
+.heading{
+	text-align:center;
+	margin-bottom:40px;
+}
+.heading p{
+	width:70%;
+	margin:0 auto;
+}
+.border-bottom-line{
+	height:2px;
+	background:black;
+	width:40px;
+	margin:0 auto;
+ 
+}
+.services-data{
+	background:#f8f8f8;
+	padding:20px 10px;
+	margin-bottom:20px;
+}
+
+.services-icon{
+	    background-color: #ed5f5e;
+		padding:10px;
+}
+.services-icon i{
+	color:white;
+	font-size:20px;
+}
+/*-portfolio--wrapper*/
+.portfolio-wrapper{
+	width:100%;
+	float:left;
+	padding:80px 20px;
+	background:#f8f8f8; 
+}
+.heading h1{
+font-size:25px;
+}
+.portfolio-cat li a{
+ background:white;
+color:black;
+}
+.portfolio-cat{
+ margin-bottom:50px;
+}
+.portfolio-cat li .active{
+color:red;
+}
+.portfolio-cat li a:hover{
+ color:red;
+}
+.portfolio-data{
+ position:relative;
+overflow:hidden;
+}
+.portfolio-overlay{
+position:absolute;
+width:100%;
+height:100%;
+background:#ed5f5e;
+top:0px;
+text-align:center;
+color:white;
+padding-top:100px;
+transform:translatey(100%);
+transition:transform 2s;
+}
+.portfolio-data:hover .portfolio-overlay{
+transform:translatey(0%);
+}
+
+.portfolio-data img{
+width:100%;
+height:300px;
+}
+.portfolio-cat li {
+margin:0px 10px;
+}
+/*portfolio end*/
+	/*<!--middle-wrapper-start-->*/
+.help-wrapper{
+     float:left;
+     width:100%;
+	 padding:60px 0px;
+}
+.bottom-line-left{
+	height:1px;
+	background:black;
+	width:100px;
+	margin-bottom:30px;
+	
+}
+	/*<!--middle-wrapper-end-->*/
+/* video wrapper start */
+.video-wrapper{
+	width:100%;
+	float:left;
+	position:relative;
+`}
+.video-data{
+	width:100%;
+	position:absolute;
+	top:140px;
+	color:white;
+	text-align:center;	
+	z-index:11;
+}
+.video-overlay{
+	position:absolute;
+	top:0px;
+	width:100%;
+	height:100%;
+	background: rgb(0 0 0 / 55%);
+	z-index:10;
+}
+/*team-wrapper*/
+.team-wrapper{
+	width:100%;
+	float:left;
+	padding:90px 60px;
+	
+}
+.heading{
+	text-align:center;
+	margin-bottom:40px;
+}
+.heading p{
+	width:70%;
+	margin:0 auto;
+}
+.border-bottom-line{
+	height:2px;
+	background:black;
+	width:40px;
+	margin:0 auto;
+ 
+}
+.team-data{
+	background:#f8f8f8;
+	padding:20px 10px;
+	margin-bottom:20px;
+}
+
+.team-icon{
+	    background-color: #ed5f5e;
+		padding:10px;
+}
+.team-icon i{
+	color:white;
+	font-size:20px;
+}
+/*skills-wrapper start*/
+.skills-wrapper{
+	width:100%;
+	float:left;
+	padding:100px 80px;
+	background:#f8f8f8;
+}
+.progressbar-box{
+	line-height:3;
+}
+/*skills-wrapper end*/
+/*icon start*/
+.icon-wrapper{
+width:100%;
+display:flex;
+padding-top:20px;
+}
+.mx-3 p{
+padding-top:20px;
+}
+.mx-2 h4{
+	padding:13px 0;
+	color:	#808080;
+}
+.mx-2 p{
+	padding-top:10px;
+		color:	#808080;
+	line-height:0px;
+}
+/*testimonials*/
+.testimonal-wrapper{
+	padding:80px 0px;
+	background:url('../images/sample1.png');
+
+}
+/*blog-wrapper*/
+.blog-wrapper{
+padding:80px 60px;
+}
+.blog-wrapper.p{
+	padding-top:20px;
+	
+}
+/*client-wrapper*/
+.client-wrapper{
+	padding:40px 60px;
+	    background-color: #f8f8f8;
+		width:100%;
+}
+.img img{
+	margin:20px;
+}
+/*contact-wrapper*/
+.contact-wrapper{
+	padding:60px 50px;
+	width:100%;
+	float:left;
+	
+}
+form input{
+	padding:10px;
+	margin:20px;
+	margin-left:0;
+}
+form textarea{
+	padding:10px;
+	width:100%;
+}
+form button{
+	padding:10px 20px;
+	background-color:red;
+}
+.contact-wrapper i{
+	float:left;
+}
+/*footer-wrapper*/  
+.footer-wrapper{
+	background-color:black;
+	width:100%;
+	float:left; 
+	padding:30px 0px;
+}
+.footer-wrapper .copyright{
+	color:white;
+}
+ 
